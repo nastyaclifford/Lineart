@@ -1,0 +1,75 @@
+.header,.logo,.nav,.contacts,.main,.services,.services1,.services2,.image,.text,.text1,.text2,.aside,.footer{
+    border: 1px solid black;
+    width: 1920px;
+}
+.header{
+    min-height: 129px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    min-height:64px;
+    width:314px;
+}
+.nav{
+    width:800px;
+}
+.contacts{
+    min-height:94px;
+    width:600px;
+}
+.main{
+    min-height: 1975px;
+}
+.services{
+    min-height: 861px;
+    width: 1920px;
+    display:flex;
+    flex-direction: row;
+}
+.services1{
+    min-height: 861px;
+    width: 960px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services2{
+    min-height: 861px;
+    width: 960px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image{
+    min-height: 431px;
+    width: 960px;
+}
+.article{
+    min-height:1113px;
+    display:flex;
+    flex-direction: row;
+}
+.text{
+    min-height: 1113px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.text1{
+    min-height: 457px;
+    width: 1280px;
+}
+.text2{
+    min-height: 656px;
+    width: 1280px;
+}
+.aside{
+    min-height: 1113px;
+    width: 463px;
+}
+.footer{
+    min-height:1113px;
+}
