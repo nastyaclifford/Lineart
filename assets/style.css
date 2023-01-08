@@ -1,7 +1,7 @@
-.header,.logo,.nav,.contacts,.p,.main,.services,.services1,.services2,.image,.text,.text1,.text2,.text2_1,.text2_2,.img2,.aside,.footer{
+.header,.main,.footer{
     width: 1920px;
 }
-.a,.p,.imgtext1,.imgtext2,.imgtext3,.imgtext4,.h1,.textfoto,.h2{
+.a,.p,.imgtext1,.imgtext2,.imgtext3,.imgtext4,.textname1,.textfoto,.textname2,.button{
     font-family: 'Roboto Flex', sans-serif;
     font-style:normal;
 }
@@ -114,7 +114,7 @@
     min-height: 457px;
     width: 1280px;
 }
-.h1{
+.textname1{
     position: absolute;
     width: 298px;
     height: 94px;
@@ -144,7 +144,7 @@
     justify-content: flex-end;
     margin-left: 198px;
 }
-.h2{
+.textname2{
     position: absolute;
     width: 251px;
     height: 66px;
@@ -168,4 +168,84 @@
 }
 .footer{
     min-height:1113px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer1{
+    min-height: 663px;
+    background-color: rgba(235, 231, 231, 0.967);
+}
+.workwithus,.form,.send{
+    height:221px;
+    width:1457px;
+    margin-left: 5.2cm;
+    background-color: rgba(235, 231, 231, 0.967);
+}
+.workwithus {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 40px;
+    padding-top:100px;
+}
+.form{
+    display:flex;
+    flex-direction: row;
+}
+.form1{
+    width:1000px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+.name{
+    height:80px;
+    width:400px;
+    background-color: rgba(235, 231, 231, 0.967);
+    border-style: double;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.form2{
+    width:457px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name2{
+    height:194px;
+    width:400px;
+    background-color: rgba(235, 231, 231, 0.967);
+    border-style: double;
+    text-align: center;
+    
+}
+.label{
+    font-size: 20px;
+}
+.button{
+    font-size: 30px;
+    border: none;
+    background-color: rgba(235, 231, 231, 0.967);
+    text-decoration: underline;
+}
+.footer2{
+    min-height:450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo2{
+        min-height: 100px;
+        width: 480px;
+    }
+.nav2{
+    min-height:230px;
+    width:460px;
 }
